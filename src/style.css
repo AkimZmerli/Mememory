@@ -1,0 +1,40 @@
+:root {
+  --width: 500px;
+  --height: 500px;
+  --cardWidth: 70px;
+  --cardHeight: 70px;
+}
+
+body {
+  background-color: rgb(229, 105, 16);
+}
+
+#app {
+  width: var(--width);
+  height: var(--height);
+  border: 3px solid black;
+  border-radius: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(148, 83, 36);
+}
+
+.memory__card {
+  background-color: rgb(212, 200, 193);
+  border-radius: 8px;
+  width: var(--cardWidth);
+  height: var(--cardHeight);
+  border: 2px solid black;
+  margin: 3px;
+}
+
+.memory__card img {
+  width: var(--cardWidth);
+  height: var(--cardHeight);
+}
+
+.hidden {
+  display: none;
+}
